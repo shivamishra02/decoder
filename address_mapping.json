@@ -1,0 +1,475 @@
+{
+  "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23": {
+    "name": "Unknown:0xbf0eccd6...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 69
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+    "name": "USDC",
+    "type": "token",
+    "decimals": 6,
+    "source": "known_list",
+    "occurrences": 53
+  },
+  "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2": {
+    "name": "AaveV3:LendingPool",
+    "type": "lending",
+    "subtype": "aave_v3",
+    "source": "known_list",
+    "occurrences": 21
+  },
+  "0xfc378daa952ba7f163c4a11628f55a4df523b3ef": {
+    "name": "Unknown:0xfc378daa...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 19
+  },
+  "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+    "name": "USDT",
+    "type": "token",
+    "decimals": 6,
+    "source": "known_list",
+    "occurrences": 18
+  },
+  "0xc36442b4a4522e871399cd717abdd847ab11fe88": {
+    "name": "UniswapV3:NFTManager",
+    "type": "dex",
+    "subtype": "uniswap_v3",
+    "source": "known_list",
+    "occurrences": 18
+  },
+  "0x3416cf6c708da44db2624d63ea0aaef7113527c6": {
+    "name": "Unknown:0x3416cf6c...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 17
+  },
+  "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c": {
+    "name": "Aave:ReserveLogic",
+    "type": "lending",
+    "subtype": "aave_v3",
+    "source": "known_list",
+    "occurrences": 17
+  },
+  "0x43506849d7c04f9138d1a2050bbf3a0c054402dd": {
+    "name": "Unknown:0x43506849...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 17
+  },
+  "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55": {
+    "name": "Unknown:0xf2614a23...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 15
+  },
+  "0x7d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+    "name": "Unknown:0x7d1e84f3...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 10
+  },
+  "0x0000000000000000000000000000000000000000": {
+    "name": "ZeroPadded:System",
+    "type": "system",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 8
+  },
+  "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+    "name": "WBTC",
+    "type": "token",
+    "decimals": 8,
+    "source": "known_list",
+    "occurrences": 6
+  },
+  "0xbd3fa81b58ba92a82136038b25adec7066af3155": {
+    "name": "Unknown:0xbd3fa81b...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0x0a992d191deec32afe36203ad87d7d289a738f81": {
+    "name": "Unknown:0x0a992d19...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0xf951e335afb289353dc249e82926178eac7ded78": {
+    "name": "Protocol:liquidity-stake-like",
+    "type": "protocol",
+    "source": "heuristic",
+    "occurrences": 4
+  },
+  "0x72e95b8931767c79ba4eee721354d6e99a61d004": {
+    "name": "Unknown:0x72e95b89...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0x7effd7b47bfd17e52fb7559d3f924201b9dbff3d": {
+    "name": "Unknown:0x7effd7b4...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0x8164cc65827dcfe994ab23944cbc90e0aa80bfcb": {
+    "name": "Unknown:0x8164cc65...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0x667efaba426dafa666b137a31f1b1f1f2cda0740": {
+    "name": "Unknown:0x667efaba...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 4
+  },
+  "0xc4922d64a24675e16e1586e3e3aa56c06fabe907": {
+    "name": "Unknown:0xc4922d64...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 3
+  },
+  "0xc21e4ebd1d92036cb467b53fe3258f219d909eb9": {
+    "name": "Unknown:0xc21e4ebd...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 3
+  },
+  "0x000000000022d473030f116ddee9f6b43ac78ba3": {
+    "name": "Multicall/ENS-like",
+    "type": "system",
+    "source": "heuristic",
+    "occurrences": 3
+  },
+  "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7": {
+    "name": "Unknown:0xbebc4478...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 3
+  },
+  "0x4e1dcf7ad4e460cfd30791ccc4f9c8a4f820ec67": {
+    "name": "Unknown:0x4e1dcf7a...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 3
+  },
+  "0x16786ffbd087684b0c09d6e66f91c71c7d722365": {
+    "name": "Unknown:0x16786ffb...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0x4e502ab1bb313b3c1311eb0d11b31a6b62988b86": {
+    "name": "Unknown:4e50...",
+    "type": "unknown",
+    "source": "heuristic",
+    "occurrences": 2
+  },
+  "0x3ced11c610556e5292fbc2e75d68c3899098c14c": {
+    "name": "Unknown:0x3ced11c6...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0x1e2468e14240873ad35f77866df672d4fc0b8724": {
+    "name": "Unknown:0x1e2468e1...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0xb2f38107a18f8599331677c14374fd3a952fb2c8": {
+    "name": "Unknown:0xb2f38107...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0xef434e4573b90b6ecd4a00f4888381e4d0cc5ccd": {
+    "name": "Unknown:0xef434e45...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0x2b22e425c1322fba0dbf17bb1da25d71811ee7ba": {
+    "name": "Unknown:0x2b22e425...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0xac725cb59d16c81061bdea61041a8a5e73da9ec6": {
+    "name": "Unknown:0xac725cb5...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0x9ec6f08190dea04a54f8afc53db96134e5e3fdfb": {
+    "name": "Unknown:0x9ec6f081...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0xe7b67f44ea304dd7f6d215b13686637ff64cd2b2": {
+    "name": "Unknown:0xe7b67f44...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 2
+  },
+  "0xf917212bb2536d647574c8e7e5da92c2ede0c9f8": {
+    "name": "Unknown:0xf917212b...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x72e399692bbfb6d4ae5766fd8d58a7b8cc6142e6": {
+    "name": "Unknown:0x72e39969...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x53fff3fb75af4395915d3d2a771b24aa10e3cc5d": {
+    "name": "Unknown:0x53fff3fb...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x000000000000000000000000000000000004c2e1": {
+    "name": "ZeroPadded:System",
+    "type": "system",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xf234a870a485854ae0d91f16643d6f317d8b8994": {
+    "name": "Unknown:0xf234a870...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x00000000000000000000000000000000000cd45c": {
+    "name": "ZeroPadded:System",
+    "type": "system",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110": {
+    "name": "Unknown:0xc92e8bdf...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x2b0215675cc67bc1d5b6fd93300a1c3878b86196": {
+    "name": "Unknown:0x2b021567...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x227ace22d4c00ad99e2a43f58cb7d9e3feb295f2": {
+    "name": "Unknown:0x227ace22...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xb0bf11fd197d01a037c52b927a881a10fb73ba61": {
+    "name": "Unknown:0xb0bf11fd...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xc25aa97b8c71c361ee4937adc1a00000227db5dd": {
+    "name": "Unknown:0xc25aa97b...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xd3cc0cda295eeaad5f13f361969b12ea48015f90": {
+    "name": "Unknown:0xd3cc0cda...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x244e897a450f61e1bb8d589cd2e69e6c8924f9f7": {
+    "name": "Unknown:0x244e897a...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xeef205be16b817020812c73223e81d1bdb9708ec": {
+    "name": "Unknown:0xeef205be...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x66a9893cc07d91d95644aedd05d03f95e1dba8af": {
+    "name": "Unknown:0x66a9893c...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed": {
+    "name": "Unknown:0xcbcdf962...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x0000000000000000000000000000000000000db7": {
+    "name": "ZeroPadded:System",
+    "type": "system",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x9e4ac23c24ed7fd1a6e3e3f91894a9a073f5dfff": {
+    "name": "Unknown:0x9e4ac23c...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xac4c6e212a361c968f1725b4d055b47e63f80b75": {
+    "name": "Unknown:0xac4c6e21...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x53595df741cbbc554d6831e40f1b5453199a9630": {
+    "name": "Unknown:0x53595df7...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a": {
+    "name": "Unknown:0x39053d51...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x5b2df9285f416fe98cf2559cd21484b3d8743304": {
+    "name": "Unknown:0x5b2df928...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x5accc90436492f24e6af278569691e2c942a676d": {
+    "name": "Unknown:0x5accc904...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x858646372cc42e1a627fce94aa7a7033e7cf075a": {
+    "name": "Unknown:0x85864637...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6": {
+    "name": "Unknown:0x0fe4f44b...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xdfd5293d8e347dfe59e90efd55b2956a1343963d": {
+    "name": "Unknown:0xdfd5293d...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x2f39d218133afab8f2b819b1066c7e434ad94e9e": {
+    "name": "Unknown:0x2f39d218...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x5838833d20c2619b76e1db526a1bd280d848d464": {
+    "name": "Unknown:0x5838833d...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x41675c099f32341bf84bfc5382af534df5c7461a": {
+    "name": "Unknown:0x41675c09...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xbd89a1ce4dde368ffab0ec35506eece0b1ffdc54": {
+    "name": "Unknown:0xbd89a1ce...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+    "name": "Unknown:0xc02aaa39...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0x0c67fc9f718c2dc75f38067fedefb1513edec521": {
+    "name": "Unknown:0x0c67fc9f...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  },
+  "0xefeada08e0a4cf5a715e90bfeaffef53bd53e775": {
+    "name": "Unknown:0xefeada08...",
+    "type": "unknown",
+    "decimals": null,
+    "source": "auto",
+    "occurrences": 1
+  }
+}

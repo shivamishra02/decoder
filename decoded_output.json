@@ -1,0 +1,1476 @@
+{
+  "summary": {
+    "totalLogsProcessed": 43,
+    "totalEventsDecoded": 43,
+    "protocolsIdentified": {
+      "token": 23,
+      "unknown": 7,
+      "dex": 1,
+      "lending": 8,
+      "protocol": 4
+    },
+    "eventTypeDistribution": {
+      "Transfer": 19,
+      "Unknown_Event_ab85...": 1,
+      "Approval": 10,
+      "Unknown_Event_1b2a...": 1,
+      "Unknown_Event_5820...": 1,
+      "Unknown_Event_2db5...": 1,
+      "Unknown_Event_c6a3...": 1,
+      "Custom_Event_25b4...": 1,
+      "Custom_Event_c3ee...": 1,
+      "Unknown_Event_458f...": 1,
+      "Custom_Event_00058a...": 1,
+      "Unknown": 2,
+      "Unknown_Event_4cf2...": 1,
+      "Unknown_Event_3115...": 1,
+      "Unknown_Event_e28a...": 1
+    },
+    "processingTimestamp": "2025-08-21T04:11:57.349194Z"
+  },
+  "eventsByProtocol": {
+    "token": [
+      {
+        "transactionHash": "0x9ee0c523f0b9f856cb1d75dc62075be0d0e6d83ffaf3cd1627e6e49c3e734f7a",
+        "blockNumber": 19003465,
+        "logIndex": 82,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x16786ffbd087684b0c09d6e66f91c71c7d722365",
+          "value_raw": "750000000",
+          "value": "750.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 750.000000 USDC",
+          "token": "USDC",
+          "amount": "750.000000",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x16786ffbd087684b0c09d6e66f91c71c7d722365"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x00000000000000000000000016786ffbd087684b0c09d6e66f91c71c7d722365",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000002cb41780"
+        }
+      },
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 476,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Unknown_Event_ab85...",
+        "eventSignature": "0xab8530f87dc9b59234c4623bf917212bb2536d647574c8e7e5da92c2ede0c9f8",
+        "decodedData": {
+          "topics": [
+            "0xf917212bb2536d647574c8e7e5da92c2ede0c9f8",
+            "0xc4922d64a24675e16e1586e3e3aa56c06fabe907",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x000000000000000000000000000000000000000000000000000000003baa0c40",
+          "data_int": "1001000000"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xab8530f87dc9b59234c4623bf917212bb2536d647574c8e7e5da92c2ede0c9f8",
+            "0x000000000000000000000000c4922d64a24675e16e1586e3e3aa56c06fabe907",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000003baa0c40"
+        }
+      },
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 477,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "1001000000",
+          "value": "1001.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 1001.000000 USDC",
+          "token": "USDC",
+          "amount": "1001.000000",
+          "from": "0x0000000000000000000000000000000000000000",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000003baa0c40"
+        }
+      },
+      {
+        "transactionHash": "0x2a606de573ba9f728cbf943867cbada80f72505b46a84e88a604e281a94fd105",
+        "blockNumber": 21014167,
+        "logIndex": 286,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "value_raw": "450000000",
+          "value": "450.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 450.000000 USDC",
+          "token": "USDC",
+          "amount": "450.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001ad27480"
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 100,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "value_raw": "450000000",
+          "value": "450.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 450.000000 USDC",
+          "token": "USDC",
+          "amount": "450.000000",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001ad27480"
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 105,
+        "protocol": "USDT",
+        "protocolType": "token",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "450167866",
+          "value": "450.167866",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 450.167866 USDT",
+          "token": "USDT",
+          "amount": "450.167866",
+          "from": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000f2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001ad5043a"
+        }
+      },
+      {
+        "transactionHash": "0x3df7b6368e9916ae7d955f4bcc5d77583cc27280e30366ea8bc0d1722bcf47bc",
+        "blockNumber": 21014173,
+        "logIndex": 278,
+        "protocol": "USDT",
+        "protocolType": "token",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 115792089237316190183760311394656140241344763643041023198016376741560320.000000 USDT",
+          "token": "USDT",
+          "amount": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0x61f69cb432e958f17af5e9df8daaecde59401547b5f7f6e83533b77522adfbf5",
+        "blockNumber": 21014176,
+        "logIndex": 242,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 115792089237316190183760311394656140241344763643041023198016376741560320.000000 USDC",
+          "token": "USDC",
+          "amount": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc36442b4a4522e871399cd717abdd847ab11fe88"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000c36442b4a4522e871399cd717abdd847ab11fe88",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 238,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "value_raw": "456746479",
+          "value": "456.746479",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 456.746479 USDC",
+          "token": "USDC",
+          "amount": "456.746479",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001b3965ef"
+        }
+      },
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 239,
+        "protocol": "USDT",
+        "protocolType": "token",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "value_raw": "450167866",
+          "value": "450.167866",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 450.167866 USDT",
+          "token": "USDT",
+          "amount": "450.167866",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3416cf6c708da44db2624d63ea0aaef7113527c6"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001ad5043a"
+        }
+      },
+      {
+        "transactionHash": "0x6faf78c38a18c5764901df22a818d4e3d3b488035e170d955f07c790faa05679",
+        "blockNumber": 21048661,
+        "logIndex": 310,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "813653",
+          "value": "0.813653",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 0.813653 USDC",
+          "token": "USDC",
+          "amount": "0.813653",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000c6a55"
+        }
+      },
+      {
+        "transactionHash": "0x6faf78c38a18c5764901df22a818d4e3d3b488035e170d955f07c790faa05679",
+        "blockNumber": 21048661,
+        "logIndex": 311,
+        "protocol": "USDT",
+        "protocolType": "token",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "908013673",
+          "value": "908.013673",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 908.013673 USDT",
+          "token": "USDT",
+          "amount": "908.013673",
+          "from": "0x3416cf6c708da44db2624d63ea0aaef7113527c6",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000003416cf6c708da44db2624d63ea0aaef7113527c6",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000361f3069"
+        }
+      },
+      {
+        "transactionHash": "0xb0c405eec8d9035ccc19bdab6839b35482d79ba2dccfec020a661707460f6ef5",
+        "blockNumber": 21048682,
+        "logIndex": 336,
+        "protocol": "USDT",
+        "protocolType": "token",
+        "contractAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 115792089237316190183760311394656140241344763643041023198016376741560320.000000 USDT",
+          "token": "USDT",
+          "amount": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000c92e8bdf79f0507f65a392b0ab4667716bfe0110",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0xc8db44271726231dbdd53b890dede38804fc4e0c077c7daf49b8e9ee4ff3bef1",
+        "blockNumber": 21049943,
+        "logIndex": 153,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 115792089237316190183760311394656140241344763643041023198016376741560320.000000 USDC",
+          "token": "USDC",
+          "amount": "115792089237316190183760311394656140241344763643041023198016376741560320.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x00000000000000000000000087870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 202,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "value_raw": "901000000",
+          "value": "901.000000",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 901.000000 USDC",
+          "token": "USDC",
+          "amount": "901.000000",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x00000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035b42b40"
+        }
+      },
+      {
+        "transactionHash": "0x94960c4a9c3b1b48a3d9378091da57047902b708e1da8c0d7c04a9e414655e0f",
+        "blockNumber": 21165983,
+        "logIndex": 297,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xc21e4ebd1d92036cb467b53fe3258f219d909eb9",
+          "value_raw": "48895900",
+          "value": "48.895900",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token approval 48.895900 USDC",
+          "token": "USDC",
+          "amount": "48.895900",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xc21e4ebd1d92036cb467b53fe3258f219d909eb9"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000c21e4ebd1d92036cb467b53fe3258f219d909eb9",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000002ea179c"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 77,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "905550637",
+          "value": "905.550637",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 905.550637 USDC",
+          "token": "USDC",
+          "amount": "905.550637",
+          "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x00000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035f99b2d"
+        }
+      },
+      {
+        "transactionHash": "0xe47863731e54e43e27291fefae360bf108eb67eaaef3d03bd3361db2028d0dad",
+        "blockNumber": 21831735,
+        "logIndex": 316,
+        "protocol": "WBTC",
+        "protocolType": "token",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "1157920892373161978462380157241004320330798993945869412917119876595712.000000",
+          "decimals": 8
+        },
+        "humanReadable": {
+          "action": "Token approval 1157920892373161978462380157241004320330798993945869412917119876595712.000000 WBTC",
+          "token": "WBTC",
+          "amount": "1157920892373161978462380157241004320330798993945869412917119876595712.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba3",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0xe9aa76153142c3267eb795cebc46c2299359f8b1bcef951762dea14228539118",
+        "blockNumber": 21831735,
+        "logIndex": 317,
+        "protocol": "WBTC",
+        "protocolType": "token",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+          "value_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+          "value": "1157920892373161978462380157241004320330798993945869412917119876595712.000000",
+          "decimals": 8
+        },
+        "humanReadable": {
+          "action": "Token approval 1157920892373161978462380157241004320330798993945869412917119876595712.000000 WBTC",
+          "token": "WBTC",
+          "amount": "1157920892373161978462380157241004320330798993945869412917119876595712.000000",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000000000000022d473030f116ddee9f6b43ac78ba3",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0x979c32abe601b217c18ecd9ab3332c1c17201e66b05a231016aa4d3b34c6b386",
+        "blockNumber": 21831738,
+        "logIndex": 589,
+        "protocol": "WBTC",
+        "protocolType": "token",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed",
+          "value_raw": "50000",
+          "value": "0.000500",
+          "decimals": 8
+        },
+        "humanReadable": {
+          "action": "Token transfer of 0.000500 WBTC",
+          "token": "WBTC",
+          "amount": "0.000500",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xcbcdf9626bc03e24f779434178a73a0b4bad62ed"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000cbcdf9626bc03e24f779434178a73a0b4bad62ed",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000000000c350"
+        }
+      },
+      {
+        "transactionHash": "0x0069d2733f9ba2b9a290b4d91d5375ffc12334de4ca6fb55dd182f4f63f1e2f8",
+        "blockNumber": 22444982,
+        "logIndex": 230,
+        "protocol": "WBTC",
+        "protocolType": "token",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0xac4c6e212a361c968f1725b4d055b47e63f80b75",
+          "value_raw": "455919",
+          "value": "0.004559",
+          "decimals": 8
+        },
+        "humanReadable": {
+          "action": "Token approval 0.004559 WBTC",
+          "token": "WBTC",
+          "amount": "0.004559",
+          "owner": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "spender": "0xac4c6e212a361c968f1725b4d055b47e63f80b75"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000ac4c6e212a361c968f1725b4d055b47e63f80b75",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000000006f4ef"
+        }
+      },
+      {
+        "transactionHash": "0x289e59a29b29b6ea73bdc5e244a0bee599eabd7943a674f49fec517ef13689e3",
+        "blockNumber": 22444984,
+        "logIndex": 261,
+        "protocol": "WBTC",
+        "protocolType": "token",
+        "contractAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "value_raw": "455919",
+          "value": "0.004559",
+          "decimals": 8
+        },
+        "humanReadable": {
+          "action": "Token transfer of 0.004559 WBTC",
+          "token": "WBTC",
+          "amount": "0.004559",
+          "from": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "to": "0x3ced11c610556e5292fbc2e75d68c3899098c14c"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000003ced11c610556e5292fbc2e75d68c3899098c14c",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000000006f4ef"
+        }
+      },
+      {
+        "transactionHash": "0x289e59a29b29b6ea73bdc5e244a0bee599eabd7943a674f49fec517ef13689e3",
+        "blockNumber": 22444984,
+        "logIndex": 269,
+        "protocol": "USDC",
+        "protocolType": "token",
+        "contractAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "from": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+          "value_raw": "467239850",
+          "value": "467.239850",
+          "decimals": 6
+        },
+        "humanReadable": {
+          "action": "Token transfer of 467.239850 USDC",
+          "token": "USDC",
+          "amount": "467.239850",
+          "from": "0x3ced11c610556e5292fbc2e75d68c3899098c14c",
+          "to": "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000003ced11c610556e5292fbc2e75d68c3899098c14c",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000001bd983aa"
+        }
+      }
+    ],
+    "unknown": [
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 478,
+        "protocol": "Unknown",
+        "protocolType": "unknown",
+        "contractAddress": "0xbd3fa81b58ba92a82136038b25adec7066af3155",
+        "eventName": "Unknown_Event_1b2a...",
+        "eventSignature": "0x1b2a7ff080b8cb6ff436ce0372e399692bbfb6d4ae5766fd8d58a7b8cc6142e6",
+        "decodedData": {
+          "topics": [
+            "0x72e399692bbfb6d4ae5766fd8d58a7b8cc6142e6",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            null
+          ],
+          "data_raw": "0x000000000000000000000000000000000000000000000000000000003baa0c40",
+          "data_int": "1001000000"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x1b2a7ff080b8cb6ff436ce0372e399692bbfb6d4ae5766fd8d58a7b8cc6142e6",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000000003baa0c40"
+        }
+      },
+      {
+        "transactionHash": "0x8f7d6df8be8d97c79c094f19485202a808b5b5a85d93d757e06889eec3f2942a",
+        "blockNumber": 21014100,
+        "logIndex": 479,
+        "protocol": "Unknown",
+        "protocolType": "unknown",
+        "contractAddress": "0x0a992d191deec32afe36203ad87d7d289a738f81",
+        "eventName": "Unknown_Event_5820...",
+        "eventSignature": "0x58200b4c34ae05ee816d710053fff3fb75af4395915d3d2a771b24aa10e3cc5d",
+        "decodedData": {
+          "topics": [
+            "0x53fff3fb75af4395915d3d2a771b24aa10e3cc5d",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000000000000004c2e1",
+            null
+          ],
+          "data_raw": "0x00000000000000000000000000000000000000000000000000000000000000060000000000000000000000001682ae6375c4e4a97e4b583bc394c861a46d89620000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008400000000000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23000000000000000000000000000000000000000000000000000000003baa0c40000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c2300000000000000000000000000000000000000000000000000000000",
+          "data_int": "193902036427866043804289260132055578857433554384306535764975014801869942461647052227323087070026613741794568739254006209430382518827584842953080726943610421079908447217680876815384897143110054704097587147311140193617585356125534562826861642407615685163553874234024372026624954377579637604596476404824375691582336873546213773272280309175115395875079916540109445688196119303089143788161251217125473321211953340474831356906376019810995116190504045112637182732517338071210979082162165042666211026787849819411054891124185468097202981122711366563827335152647048624190363630559641446572660009098491068154515642340568891129856"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x58200b4c34ae05ee816d710053fff3fb75af4395915d3d2a771b24aa10e3cc5d",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000000000000000000000000000000000000004c2e1",
+            null
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000000000000000000060000000000000000000000001682ae6375c4e4a97e4b583bc394c861a46d89620000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000008400000000000000000000000000000000833589fcd6edb6e08f4c7c32d4f71b54bda02913000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23000000000000000000000000000000000000000000000000000000003baa0c40000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c2300000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      {
+        "transactionHash": "0xd9f0bbed03b38c3d2ffaae0588d3ef7934da2267aa481a7cf23c111ca703ab2a",
+        "blockNumber": 21014169,
+        "logIndex": 106,
+        "protocol": "Unknown",
+        "protocolType": "unknown",
+        "contractAddress": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
+        "eventName": "Unknown_Event_2db5...",
+        "eventSignature": "0x2db5ddd0b42bdbca0d69ea16f234a870a485854ae0d91f16643d6f317d8b8994",
+        "decodedData": {
+          "topics": [
+            "0xf234a870a485854ae0d91f16643d6f317d8b8994",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          ],
+          "data_raw": "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23000000000000000000000000000000000000000000000000000000001ad27480000000000000000000000000000000000000000000000000000000001ab2ac07000000000000000000000000000000000000000000000000000000001ad5043a",
+          "data_int": "1693404904162345327686017986587932455525776105832001972238236191371429515103689148681811009926621983545051049868552205260131275209150603882851987465642650345581333892640100526004727272657761198655900205149575610474318098130258827432250031030472464142727853431883844428108953617466"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x2db5ddd0b42bdbca0d69ea16f234a870a485854ae0d91f16643d6f317d8b8994",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0x000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec7"
+          ],
+          "data": "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23000000000000000000000000000000000000000000000000000000001ad27480000000000000000000000000000000000000000000000000000000001ab2ac07000000000000000000000000000000000000000000000000000000001ad5043a"
+        }
+      },
+      {
+        "transactionHash": "0x979c32abe601b217c18ecd9ab3332c1c17201e66b05a231016aa4d3b34c6b386",
+        "blockNumber": 21831738,
+        "logIndex": 587,
+        "protocol": "Unknown",
+        "protocolType": "unknown",
+        "contractAddress": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+        "eventName": "Unknown_Event_c6a3...",
+        "eventSignature": "0xc6a377bfc4eb120024a8ac08eef205be16b817020812c73223e81d1bdb9708ec",
+        "decodedData": {
+          "topics": [
+            "0xeef205be16b817020812c73223e81d1bdb9708ec",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "0x66a9893cc07d91d95644aedd05d03f95e1dba8af"
+          ],
+          "data_raw": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000067d45fc60000000000000000000000000000000000000000000000000000000000000000",
+          "data_int": "19595533242629369747791401605606558418088927130474056037003719605365707440267995136330167869414936445357286797456774122244345317106553134081154889906598066740957077926745659122143846542312647770534576128"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xc6a377bfc4eb120024a8ac08eef205be16b817020812c73223e81d1bdb9708ec",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000002260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "0x00000000000000000000000066a9893cc07d91d95644aedd05d03f95e1dba8af"
+          ],
+          "data": "0x000000000000000000000000ffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000067d45fc60000000000000000000000000000000000000000000000000000000000000000"
+        }
+      },
+      {
+        "transactionHash": "0x3b8015429dd454d344f0b9558e4d9dc823c8f2179a339b617475bccecf736326",
+        "blockNumber": 21831804,
+        "logIndex": 399,
+        "protocol": "Unknown:contract_4e50...",
+        "protocolType": "unknown",
+        "contractAddress": "0x4e502ab1bb313b3c1311eb0d11b31a6b62988b86",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000db7"
+          ],
+          "data_raw": "0x",
+          "data_int": "0"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000000000000000000000000db7"
+          ],
+          "data": "0x"
+        }
+      },
+      {
+        "transactionHash": "0x3b8015429dd454d344f0b9558e4d9dc823c8f2179a339b617475bccecf736326",
+        "blockNumber": 21831804,
+        "logIndex": 400,
+        "protocol": "Unknown:contract_4e50...",
+        "protocolType": "unknown",
+        "contractAddress": "0x4e502ab1bb313b3c1311eb0d11b31a6b62988b86",
+        "eventName": "Custom_Event_25b4...",
+        "eventSignature": "0x25b428dfde728ccfaddad7e29e4ac23c24ed7fd1a6e3e3f91894a9a073f5dfff",
+        "decodedData": {
+          "topics": [
+            "0x9e4ac23c24ed7fd1a6e3e3f91894a9a073f5dfff",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null,
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000000000db70000000000000000000000000000000000000000000000000000000000000001",
+          "data_int": "406546025312217162132157728365503244472830916161064020342535577451782998165815297"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x25b428dfde728ccfaddad7e29e4ac23c24ed7fd1a6e3e3f91894a9a073f5dfff",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null,
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000db70000000000000000000000000000000000000000000000000000000000000001"
+        }
+      },
+      {
+        "transactionHash": "0xccfea893b4e3e380c4d912a7c6496482075c08ccd8bab6b5b2ed4a6fba56bc67",
+        "blockNumber": 22954525,
+        "logIndex": 217,
+        "protocol": "Unknown",
+        "protocolType": "unknown",
+        "contractAddress": "0x39053d51b77dc0d36036fc1fcc8cb819df8ef37a",
+        "eventName": "Custom_Event_c3ee...",
+        "eventSignature": "0xc3ee9f2e5fda98e8066a1f745b2df9285f416fe98cf2559cd21484b3d8743304",
+        "decodedData": {
+          "topics": [
+            "0x5b2df9285f416fe98cf2559cd21484b3d8743304",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x5accc90436492f24e6af278569691e2c942a676d",
+            null
+          ],
+          "data_raw": "0x",
+          "data_int": "0"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xc3ee9f2e5fda98e8066a1f745b2df9285f416fe98cf2559cd21484b3d8743304",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000005accc90436492f24e6af278569691e2c942a676d",
+            null
+          ],
+          "data": "0x"
+        }
+      }
+    ],
+    "dex": [
+      {
+        "transactionHash": "0x32ff485ded547a4e7f228569b76ae014260e4d8d9a6ea0e17739956c6c1bda10",
+        "blockNumber": 21014186,
+        "logIndex": 241,
+        "protocol": "UniswapV3:NFTManager",
+        "protocolType": "dex",
+        "contractAddress": "0xc36442b4a4522e871399cd717abdd847ab11fe88",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x00000000000000000000000000000000000cd45c"
+          ],
+          "data_raw": "0x",
+          "data_int": "0"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x00000000000000000000000000000000000000000000000000000000000cd45c"
+          ],
+          "data": "0x"
+        }
+      }
+    ],
+    "lending": [
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 203,
+        "protocol": "Aave:ReserveLogic",
+        "protocolType": "lending",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000035b42b40",
+          "data_int": "901000000"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035b42b40"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 204,
+        "protocol": "Aave:ReserveLogic",
+        "protocolType": "lending",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Unknown_Event_458f...",
+        "eventSignature": "0x458f5fa412d0f69b08dd84872b0215675cc67bc1d5b6fd93300a1c3878b86196",
+        "decodedData": {
+          "topics": [
+            "0x2b0215675cc67bc1d5b6fd93300a1c3878b86196",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000035b42b4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000038750e6eec878f9b2d51495",
+          "data_int": "12080434944878279986716196523383467360858908604353746433328928860793309391096265826098488742648379988348718704226023931819232248413563860613778782142393830281122965"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x458f5fa412d0f69b08dd84872b0215675cc67bc1d5b6fd93300a1c3878b86196",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035b42b4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000038750e6eec878f9b2d51495"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 205,
+        "protocol": "AaveV3:LendingPool",
+        "protocolType": "lending",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Custom_Event_00058a...",
+        "eventSignature": "0x00058a56ea94653cdf4f152d227ace22d4c00ad99e2a43f58cb7d9e3feb295f2",
+        "decodedData": {
+          "topics": [
+            "0x227ace22d4c00ad99e2a43f58cb7d9e3feb295f2",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x",
+          "data_int": "0"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x00058a56ea94653cdf4f152d227ace22d4c00ad99e2a43f58cb7d9e3feb295f2",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x"
+        }
+      },
+      {
+        "transactionHash": "0x5148f96188b87c274b0876cc5b7bf75c3457dcb2d53ed771aeb27645ac3f81a1",
+        "blockNumber": 21049959,
+        "logIndex": 206,
+        "protocol": "AaveV3:LendingPool",
+        "protocolType": "lending",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown",
+        "eventSignature": "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+        "decodedData": {
+          "topics": [
+            "0xb0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000"
+          ],
+          "data_raw": "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c230000000000000000000000000000000000000000000000000000000035b42b40",
+          "data_int": "126299907711282026749034623220107497837838805715359822292195234552567205837609127665072005535825084427351837788537697967811392"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x2b627736bca15cd5381dcf80b0bf11fd197d01a037c52b927a881a10fb73ba61",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "data": "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c230000000000000000000000000000000000000000000000000000000035b42b40"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 74,
+        "protocol": "AaveV3:LendingPool",
+        "protocolType": "lending",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown",
+        "eventSignature": "0x44c58d81365b66dd4b1a7f36c25aa97b8c71c361ee4937adc1a00000227db5dd",
+        "decodedData": {
+          "topics": [
+            "0xc25aa97b8c71c361ee4937adc1a00000227db5dd",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x",
+          "data_int": "0"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x44c58d81365b66dd4b1a7f36c25aa97b8c71c361ee4937adc1a00000227db5dd",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 75,
+        "protocol": "Aave:ReserveLogic",
+        "protocolType": "lending",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000035b42b40",
+          "data_int": "901000000"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035b42b40"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 76,
+        "protocol": "Aave:ReserveLogic",
+        "protocolType": "lending",
+        "contractAddress": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "eventName": "Unknown_Event_4cf2...",
+        "eventSignature": "0x4cf25bc1d991c17529c25213d3cc0cda295eeaad5f13f361969b12ea48015f90",
+        "decodedData": {
+          "topics": [
+            "0xd3cc0cda295eeaad5f13f361969b12ea48015f90",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000035b42b400000000000000000000000000000000000000000000000000000000000456fed0000000000000000000000000000000000000000038be0dc221557cae5217a74",
+          "data_int": "12080434944878279986716196523383467360858908604353746433328928860793309391096266353026254333281239582081515211206538861500195457310143279444436023994555674612824692"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x4cf25bc1d991c17529c25213d3cc0cda295eeaad5f13f361969b12ea48015f90",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035b42b400000000000000000000000000000000000000000000000000000000000456fed0000000000000000000000000000000000000000038be0dc221557cae5217a74"
+        }
+      },
+      {
+        "transactionHash": "0x38aea875a7703921738c05a522298e1d60182b9381a83d4ca92f2d1cc136fae3",
+        "blockNumber": 21249610,
+        "logIndex": 78,
+        "protocol": "AaveV3:LendingPool",
+        "protocolType": "lending",
+        "contractAddress": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+        "eventName": "Unknown_Event_3115...",
+        "eventSignature": "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+        "decodedData": {
+          "topics": [
+            "0x244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+            "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000000000035f99b2d",
+          "data_int": "905550637"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x3115d1449a7b732c986cba18244e897a450f61e1bb8d589cd2e69e6c8924f9f7",
+            "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000035f99b2d"
+        }
+      }
+    ],
+    "protocol": [
+      {
+        "transactionHash": "0xcf142edd7a88c6f492d8c87a12e21c40630c5c85bbb332211c222c8039c02de9",
+        "blockNumber": 22954508,
+        "logIndex": 521,
+        "protocol": "FRAX-based or Curve-like",
+        "protocolType": "protocol",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000009b4bda283f6cd",
+          "data_int": "2732001358771917"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000009b4bda283f6cd"
+        }
+      },
+      {
+        "transactionHash": "0xcf142edd7a88c6f492d8c87a12e21c40630c5c85bbb332211c222c8039c02de9",
+        "blockNumber": 22954508,
+        "logIndex": 523,
+        "protocol": "FRAX-based or Curve-like",
+        "protocolType": "protocol",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Unknown_Event_e28a...",
+        "eventSignature": "0xe28a9e1df63912c0c77b586c53595df741cbbc554d6831e40f1b5453199a9630",
+        "decodedData": {
+          "topics": [
+            "0x53595df741cbbc554d6831e40f1b5453199a9630",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000",
+            null
+          ],
+          "data_raw": "0x000000000000000000000000000000000000000000000000000aa87bee5380000000000000000000000000000000000000000000000000000009b4bda283f6cd000000000000000000000000000000000000000000003d4793f4cc0391f473ed",
+          "data_int": "40223423789827791298722074994617538382438097461777180133170684331165292090220957274550754281413030673791971484209546416367875190239488541191665611040433995137140693169133"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xe28a9e1df63912c0c77b586c53595df741cbbc554d6831e40f1b5453199a9630",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            null
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000aa87bee5380000000000000000000000000000000000000000000000000000009b4bda283f6cd000000000000000000000000000000000000000000003d4793f4cc0391f473ed"
+        }
+      },
+      {
+        "transactionHash": "0x108c6e5935302710192d1f17b77d956b434a3af1bd02ff253612e31c135d992c",
+        "blockNumber": 22954533,
+        "logIndex": 134,
+        "protocol": "FRAX-based or Curve-like",
+        "protocolType": "protocol",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Approval",
+        "eventSignature": "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "decodedData": {
+          "topics": [
+            "0x7d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
+            null
+          ],
+          "data_raw": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "data_int": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x000000000000000000000000858646372cc42e1a627fce94aa7a7033e7cf075a",
+            null
+          ],
+          "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        }
+      },
+      {
+        "transactionHash": "0xe1d15a5b4d04d135c28bf20ab57bedb835fe2e35cac49a53ba4d1033bb3cf9bf",
+        "blockNumber": 22954535,
+        "logIndex": 366,
+        "protocol": "FRAX-based or Curve-like",
+        "protocolType": "protocol",
+        "contractAddress": "0xf951e335afb289353dc249e82926178eac7ded78",
+        "eventName": "Transfer",
+        "eventSignature": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "decodedData": {
+          "topics": [
+            "0xfc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0xbf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+            null
+          ],
+          "data_raw": "0x0000000000000000000000000000000000000000000000000009b4bda283f6cd",
+          "data_int": "2732001358771917"
+        },
+        "humanReadable": {
+          "action": "Generic event (decoded topics + data)",
+          "note": "Manual mapping required for full decode"
+        },
+        "raw": {
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000bf0eccd64bb1b5ff949f55467e5bbe4376587c23",
+            "0x0000000000000000000000000fe4f44bee93503346a3ac9ee5a26b130a5796d6",
+            null
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000009b4bda283f6cd"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "wallet": "0xBF0eCCD64bB1b5Ff949f55467E5BBE4376587c23",
+    "chain": "Ethereum Mainnet",
+    "chainId": 1,
+    "url": "https://eth.hypersync.xyz",
+    "totalTransactions": 36,
+    "totalLogsFound": 76,
+    "relevantLogs": 43,
+    "totalTraces": 104,
+    "scannedBlocks": 23177679,
+    "processingTime": "1.87s",
+    "averageRate": "19.3 txs/s",
+    "timestamp": "2025-08-19T21:02:45.150Z"
+  }
+}
